@@ -3,19 +3,18 @@
   box-sizing: border-box;
 }
 
-/* body {
-  background: #f6f5f5;
-} */
-
 .hero {
   height: 800px;
   background: url("../img/profile-hero.png") no-repeat center;
   background-size: cover;
 }
 .collage {
-  height: 800px;
+  height: 1000px;
   background: url("../img/collage.png") no-repeat center;
   background-size: cover;
+}
+.rounded-border {
+  border-radius: 10px;
 }
 
 /* BACKGROUNDS */
@@ -24,6 +23,12 @@
 }
 .dk-bg {
   background: #393e46;
+}
+.cl-bg {
+  background: #fad586;
+}
+.bl-bg {
+  background: #0f0f0f;
 }
 
 /* TEXT STYLES */
@@ -48,8 +53,18 @@
   color: #e6e6e6;
 }
 
+
 /* BUTTONS */
 .imitate-btn:hover {
   text-decoration: underline;
+  text-decoration-color: #fad586;
   cursor: pointer;
+}
+
+/* INPUT FIELDS */
+.bio {
+  border-width: 20px;
+  height: 600px;
+  margin-top: 5%;
+  opacity: 80%;
 }
