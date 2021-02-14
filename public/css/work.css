@@ -1,0 +1,89 @@
+/***** GLOBAL *****/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fad586;
+}
+a:hover {
+  color: #fad586;
+}
+
+.hero {
+  height: 800px;
+  background: url("../img/profile-hero.png") no-repeat center;
+  background-size: cover;
+}
+.collage {
+  height: 1000px;
+  background: url("../img/collage.png") no-repeat center fixed;
+  background-size: cover;
+}
+.rounded-border {
+  border-radius: 10px;
+}
+
+/* BACKGROUNDS */
+.lt-bg {
+  background: #e6e6e6;
+}
+.dk-bg {
+  background: #393e46;
+}
+.cl-bg {
+  background: #fad586;
+}
+.bl-bg {
+  background: #0f0f0f;
+}
+
+/* TEXT STYLES */
+.fancy-font {
+  font-family: 'Kanit', sans-serif;
+}
+.mono-font-lt {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+}
+.mono-font {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+}
+.normal-font {
+  font-family: 'Montserrat', sans-serif;
+}
+.color {
+  color: #fad586;
+}
+.dark {
+  color: #0f0f0f;
+}
+.light {
+  color: #e6e6e6;
+}
+.bold {
+  font-weight: 700;
+}
+.skinny {
+  font-weight: 100;
+}
+
+
+/* BUTTONS */
+.imitate-btn:hover {
+  text-decoration: underline;
+  text-decoration-color: #fad586;
+  cursor: pointer;
+}
+
+/* INPUT FIELDS */
+.bio {
+  border-width: 20px;
+  height: 600px;
+  margin-top: 5%;
+  opacity: 80%;
+}

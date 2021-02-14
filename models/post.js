@@ -1,19 +1,15 @@
 module.exports = (sequelize, DataTypes) => {
-  const Project = sequelize.define("Project", {
+  const Post = sequelize.define("Post", {
     title: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {len: [1]}
     },
-    description: {
+    body: {
       type: DataTypes.TEXT,
       allowNull: false,
       validate: {len: [1]}
-    },
-    image: {
-      type: DataTypes.BLOB,
-      allowNull: true
     }
   })
-  return Project
+  return Post;
 }
