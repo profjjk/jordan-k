@@ -15,7 +15,7 @@ module.exports = (app) => {
     res.render("life", {
       title: "JK | My Life",
       style: "life.css",
-      script: "home.js"
+      script: "life.js"
     });
   });
 
@@ -26,7 +26,7 @@ module.exports = (app) => {
       res.render("work", {
         title: "JK | My Work",
         style: "work.css",
-        script: "home.js",
+        script: "work.js",
         projects: projects
       });
     } catch (error) {
