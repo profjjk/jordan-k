@@ -4,7 +4,7 @@ module.exports = (app) => {
   // Home Page
   app.get("/", (req, res) => {
     res.render("home", {
-      title: "Jordan Kelly | Web Developer",
+      title: "JK | Web Developer",
       style: "home.css",
       script: "home.js"
     })
@@ -13,7 +13,7 @@ module.exports = (app) => {
   // Life Page
   app.get("/life", (req, res) => {
     res.render("life", {
-      title: "Jordan Kelly | My Life",
+      title: "JK | My Life",
       style: "life.css",
       script: "home.js"
     })
@@ -22,7 +22,7 @@ module.exports = (app) => {
   // Work Page
   app.get("/work", (req, res) => {
     res.render("work", {
-      title: "Jordan Kelly | My Work",
+      title: "JK | My Work",
       style: "work.css",
       script: "home.js"
     })

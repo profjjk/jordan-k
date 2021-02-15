@@ -13,6 +13,20 @@ module.exports = (sequelize, DataTypes) => {
     image: {
       type: DataTypes.BLOB,
       allowNull: true
+    },
+    imageName: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    website: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {len: [1]}
+    },
+    github: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {len: [1]}
     }
   })
   return Project

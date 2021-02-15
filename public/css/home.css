@@ -5,27 +5,15 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-a {
-  text-decoration: none;
-  color: #fad586;
-}
-a:hover {
-  color: #fad586;
-}
-
-.hero {
-  height: 800px;
+header {
+  height: 80vh;
   background: url("../img/profile-hero.png") no-repeat center;
   background-size: cover;
 }
-.collage {
-  height: 1000px;
-  background: url("../img/collage.png") no-repeat center fixed;
-  background-size: cover;
+footer {
+  height: 20vh;
 }
-.rounded-border {
-  border-radius: 10px;
-}
+
 
 /* BACKGROUNDS */
 .lt-bg {
@@ -76,14 +64,6 @@ a:hover {
 /* BUTTONS */
 .imitate-btn:hover {
   text-decoration: underline;
-  text-decoration-color: #fad586;
+  text-decoration-color: #0f0f0f;
   cursor: pointer;
-}
-
-/* INPUT FIELDS */
-.bio {
-  border-width: 20px;
-  height: 600px;
-  margin-top: 5%;
-  opacity: 80%;
 }

@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS profile_db;
+
 CREATE DATABASE profile_db;
 
 USE profile_db;
@@ -14,5 +16,7 @@ CREATE TABLE projects (
   title VARCHAR(255) NOT NULL,
   description TEXT NOT NULL,
   image BLOB,
+  website VARCHAR(255) NOT NULL,
+  github VARCHAR(255) NOT NULL,
   PRIMARY KEY (id)
 );

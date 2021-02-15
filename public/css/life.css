@@ -1,28 +1,25 @@
 /***** GLOBAL *****/
-* {
-  box-sizing: border-box;
-}
 body {
   font-family: 'Montserrat', sans-serif;
+  background: url("../img/collage.png") no-repeat center;
+  background-size: cover;
+  
 }
-a {
-  text-decoration: none;
-  color: #fad586;
+main {
+  height: 90vh;
 }
-a:hover {
-  color: #fad586;
+footer {
+  height: 10vh;
+}
+p {
+  /* background: #0f0f0f; */
+  color: #e6e6e6;
+  font-size: 1.1em;
+  border-radius: 10px;
+  /* opacity: 80%; */
+  padding: 0.5%;
 }
 
-.hero {
-  height: 800px;
-  background: url("../img/profile-hero.png") no-repeat center;
-  background-size: cover;
-}
-.collage {
-  height: 1000px;
-  background: url("../img/collage.png") no-repeat center fixed;
-  background-size: cover;
-}
 .rounded-border {
   border-radius: 10px;
 }
@@ -53,9 +50,6 @@ a:hover {
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
 }
-.normal-font {
-  font-family: 'Montserrat', sans-serif;
-}
 .color {
   color: #fad586;
 }
@@ -76,14 +70,6 @@ a:hover {
 /* BUTTONS */
 .imitate-btn:hover {
   text-decoration: underline;
-  text-decoration-color: #fad586;
+  text-decoration-color: #0f0f0f;
   cursor: pointer;
-}
-
-/* INPUT FIELDS */
-.bio {
-  border-width: 20px;
-  height: 600px;
-  margin-top: 5%;
-  opacity: 80%;
 }

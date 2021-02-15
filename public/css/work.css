@@ -1,30 +1,28 @@
 /***** GLOBAL *****/
-* {
-  box-sizing: border-box;
-}
 body {
   font-family: 'Montserrat', sans-serif;
 }
-a {
-  text-decoration: none;
+main {
+  height: 90vh;
+  background: #0f0f0f;
+}
+.link {
   color: #fad586;
+  font-size: 0.8em;
 }
-a:hover {
+.link:hover {
   color: #fad586;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #fad586;
 }
-
-.hero {
-  height: 800px;
-  background: url("../img/profile-hero.png") no-repeat center;
-  background-size: cover;
+footer {
+  height: 10vh;
 }
-.collage {
-  height: 1000px;
-  background: url("../img/collage.png") no-repeat center fixed;
-  background-size: cover;
-}
-.rounded-border {
-  border-radius: 10px;
+#cv {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  color: #0f0f0f;
 }
 
 /* BACKGROUNDS */
@@ -76,14 +74,6 @@ a:hover {
 /* BUTTONS */
 .imitate-btn:hover {
   text-decoration: underline;
-  text-decoration-color: #fad586;
+  text-decoration-color: #0f0f0f;
   cursor: pointer;
-}
-
-/* INPUT FIELDS */
-.bio {
-  border-width: 20px;
-  height: 600px;
-  margin-top: 5%;
-  opacity: 80%;
 }
