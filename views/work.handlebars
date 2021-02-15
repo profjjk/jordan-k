@@ -1,45 +1,19 @@
 <div class="container-fluid bl-bg">
 
   <main>
-    <section class="row p-5">
+    <!-- Projects Section -->
+    <section class="row p-5" id="projects">
       <div class="row my-2">
         <div class="col-2">
           <h4 class="color skinny fs-2 text-center">Projects</h4>
         </div>
         <div class="col-10">
-          <div class="row">
-            <div class="col-9 px-5">
-              <h6 class="color">My Job - Organize Your Job Search</h6>
-              <p class="light">This is a full stack web application that empowers a user to better organize their job search. The
-                user can create a unique profile, add job applications, track their status, update with notes, and compare data.</p>
-              <div class="text-end">
-                <a class="link px-1">Website</a>
-                <a class="link px-1">GitHub</a>
-              </div>
-            </div>
-            <div class="col-3 d-flex py-1">
-              <img class="img-fluid rounded mx-auto w-50" src="../img/my-job.png" alt="My Job">
-            </div>
-          </div><br>
-
-          <div class="row mb-5">
-            <div class="col-9 px-5">
-              <h6 class="color">My Job - Organize Your Job Search</h6>
-              <p class="light">This is a full stack web application that empowers a user to better organize their job search. The
-                user can create a unique profile, add job applications, track their status, update with notes, and compare data.</p>
-              <div class="text-end">
-                <a class="link px-1">Website</a>
-                <a class="link px-1">GitHub</a>
-              </div>
-            </div>
-            <div class="col-3 d-flex py-1">
-              <img class="img-fluid rounded mx-auto w-50" src="../img/my-job.png" alt="My Job">
-            </div>
-          </div><br>
+          {{#each projects}}
+          {{> project-block}}
+          {{/each}}
         </div>
       </div>
     </section>
-
   </main>
 
   <footer class="row position-fixed bottom-0 d-flex align-items-center px-5 w-100">

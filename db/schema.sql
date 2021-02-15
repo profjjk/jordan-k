@@ -16,6 +16,7 @@ CREATE TABLE projects (
   title VARCHAR(255) NOT NULL,
   description TEXT NOT NULL,
   image BLOB,
+  imageName VARCHAR(255),
   website VARCHAR(255) NOT NULL,
   github VARCHAR(255) NOT NULL,
   PRIMARY KEY (id)

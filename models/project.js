@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
       validate: {len: [1]}
     },
     image: {
-      type: DataTypes.BLOB,
+      type: DataTypes.STRING,
       allowNull: true
     },
     imageName: {
@@ -31,3 +31,10 @@ module.exports = (sequelize, DataTypes) => {
   })
   return Project
 }
+
+// TO DO
+// =============================
+// Add a technologies used section for each project.
+// Rewrite the descriptions to something better.
+// Add images directly into database.
+// Maybe switch over to MongoDB when I know how to use it.
