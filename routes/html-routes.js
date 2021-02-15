@@ -33,4 +33,13 @@ module.exports = (app) => {
       console.error(error);
     }
   });
+
+  // Blog Page
+  app.get("/blog", (req, res) => {
+    res.render("blog", {
+      title: "JK | My Blog",
+      style: "blog.css",
+      script: "blog.js"
+    });
+  });
 }

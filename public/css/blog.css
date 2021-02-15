@@ -1,0 +1,79 @@
+/***** GLOBAL *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #0f0f0f;
+}
+main {
+  height: 90vh;
+}
+.link {
+  color: #fad586;
+  font-size: 0.8em;
+}
+.link:hover {
+  color: #fad586;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #fad586;
+}
+footer {
+  height: 10vh;
+  background: #e6e6e6;
+}
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+}
+
+/* BACKGROUNDS */
+.lt-bg {
+  background: #e6e6e6;
+}
+.dk-bg {
+  background: #393e46;
+}
+.cl-bg {
+  background: #fad586;
+}
+.bl-bg {
+  background: #0f0f0f;
+}
+
+/* TEXT STYLES */
+.fancy-font {
+  font-family: 'Kanit', sans-serif;
+}
+.mono-font-lt {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+}
+.mono-font {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+}
+.normal-font {
+  font-family: 'Montserrat', sans-serif;
+}
+.color {
+  color: #fad586;
+}
+.dark {
+  color: #0f0f0f;
+}
+.light {
+  color: #e6e6e6;
+}
+.bold {
+  font-weight: 700;
+}
+.skinny {
+  font-weight: 100;
+}
+
+
+/* BUTTONS */
+.imitate-btn:hover {
+  text-decoration: underline;
+  text-decoration-color: #0f0f0f;
+  cursor: pointer;
+}
