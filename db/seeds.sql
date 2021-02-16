@@ -12,7 +12,7 @@ VALUES ('Weather Dashboard', "This is a weather dashboard that queries the OpenW
 
 -- Game of Thrones Quiz
 INSERT INTO projects (title, description, image, imageName, website, github)
-VALUES ('A Game of Thrones Quiz', 'This is a Game of Thrones themed quiz consisting of 20 questions and set to a timer. Wrong answers will decrease the timer. Correct answers will be scored and a percentage will display at the end. Player names and scores are stored for reference and can be called upon by clicking on the scoreboard.', 'git-quiz.png', 'Game of Thrones Quiz', 'https://profjjk.github.io/code-quiz/', 'https://github.com/profjjk/code-quiz');
+VALUES ('A Game of Thrones Quiz', 'This is a Game of Thrones themed quiz consisting of 20 questions and set to a timer. Wrong answers will decrease the timer. Correct answers will be scored and a percentage will display at the end. Player names and scores are stored for reference and can be called upon by clicking on the scoreboard.', 'got-quiz.png', 'Game of Thrones Quiz', 'https://profjjk.github.io/code-quiz/', 'https://github.com/profjjk/code-quiz');
 
 -- What's for Dinner?
 INSERT INTO projects (title, description, image, imageName, website, github)

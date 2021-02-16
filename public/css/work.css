@@ -6,6 +6,16 @@ body {
 main {
   height: 90vh;
 }
+.skill {
+  color: #fad586;
+  font-size: 1em;
+}
+.skill:hover {
+  color: #fad586;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #fad586;
+}
 .link {
   color: #fad586;
   font-size: 0.8em;
@@ -24,6 +34,9 @@ footer {
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
   color: #0f0f0f;
+}
+img {
+  object-fit: contain;
 }
 
 /* BACKGROUNDS */
