@@ -1,12 +1,12 @@
 /***** GLOBAL *****/
 body {
   font-family: 'Montserrat', sans-serif;
-  background: url("../img/collage.png") no-repeat center;
-  background-size: cover;
-  
+  background: #0f0f0f;
 }
 main {
   height: 90vh;
+  background: url("../img/collage.png") no-repeat center center;
+  background-size: cover;
 }
 footer {
   height: 10vh;
