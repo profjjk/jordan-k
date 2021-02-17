@@ -28,7 +28,7 @@ VALUES ('Note Taker', "This is a simple application for taking notes. It allows 
 
 -- README Generator
 INSERT INTO projects (title, description, image, imageName, website, github)
-VALUES ('README Generator - Create Professional README.md files', "This is an application that utilizes node.js to create a professional README file from the command line. When the application is launched it prompts the user for information that will then be formatted and passed along to a newly created README file.", 'readme.png', 'README Generator', 'https://github.com/profjjk/readme-generator', 'https://github.com/profjjk/readme-generator');
+VALUES ('README Generator - Create Professional README.md files', "This is an application that utilizes node.js to create a professional README file from the command line. When the application is launched it prompts the user for information that will then be formatted and passed along to a newly created README file.", 'none.png', 'README Generator', 'https://github.com/profjjk/readme-generator', 'https://github.com/profjjk/readme-generator');
 
 -- Employee Viewer
 INSERT INTO projects (title, description, image, imageName, website, github)
