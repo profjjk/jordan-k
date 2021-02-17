@@ -21,7 +21,7 @@ This is my professional website. It has pages to introduce visitors to my life a
 * [Handlebars](https://handlebarsjs.com/)
 
 ## How to Access
-[Portfolio Webpage](https://profjjk.github.io/portfolio/)
+[Website Link](https://evening-cliffs-20838.herokuapp.com/)
 
 ## About Me
 * [LinkedIn](www.linkedin.com/in/the-real-jordan-kelly)
